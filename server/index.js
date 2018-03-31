@@ -12,8 +12,8 @@ const VERBOSE = (process.env.VERBOSE === 'true');
 
 const app = express();
 if (VERBOSE) app.use(morgan('dev'));
-app.use(express.static('client'));
-app.use(express.static('client/dist'));
+app.use(express.static(path.resolve(__dirname, '../client')));
+app.use(express.static(path.resolve(__dirname, '../client/dist')));
 app.use(bodyParser.json());
 
 app.post('/:user/attempts', ({ body, params: { user } }, response) => {
