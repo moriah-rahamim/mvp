@@ -5,7 +5,7 @@ const DIST_DIR = path.resolve(__dirname, 'client/dist');
 
 module.exports = {
   entry: [
-    path.resolve(SRC_DIR, 'index.jsx'),
+    path.resolve(SRC_DIR, 'index.js'),
   ],
 
   module: {
@@ -16,6 +16,10 @@ module.exports = {
         use: ['babel-loader'],
       },
     ],
+  },
+
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
 
   output: {
