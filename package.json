@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server",
     "start:dev": "VERBOSE=true nodemon server",
+    "build:dev": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,10 @@
   },
   "homepage": "https://github.com/moriah-rahamim/hrsf89-mvp#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.10.0",
@@ -33,6 +38,8 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "morgan": "^1.9.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
   }
 }
