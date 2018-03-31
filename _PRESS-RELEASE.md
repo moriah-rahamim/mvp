@@ -16,29 +16,26 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+# Pitch-Match #
+Daily perfect-pitch-practice and accountability tracker for everyone who wants to learn absolute pitch
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+Ever wanted to pull a C out of thin air with perfect accuracy? All you have to do is practice! Pitch-Match provides daily practice at your perfect pitch skills, and a tracker of your progress in accuracy.
 
 ## Problem ##
-  > Describe the problem your product solves.
+Absolute pitch is a learnable skill, but requires frequent practice, plus a way to measure your accuracy.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+This is an all-in-one solution for progress tracking and practice.
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## From the CEO ##
+  > "Pitch-Match is the most exciting, innovative undertaking we've ever started here at Hackle Resmactor, Inc. We're going to make buckets on this thing."
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+Getting started is as easy as blowing into a pitchpipe! Once a day, open it up and sing a C to yourself. Then click the button to see if you were right, and then mark down how close you were! See your progress over time as you get more and more accurate.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "I can't believe how much this helped my musical skillz! My roommates are sick of me singing at 6am in my bedroom, though. Now I'm being evicted. Thanks, Pitch-Match!"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+Want to try out Pitch-Match? Get started now!
