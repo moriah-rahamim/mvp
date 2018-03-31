@@ -12,7 +12,7 @@ PitchAttempt.propTypes = {
 };
 
 const PitchAttemptStyled = styled(PitchAttempt)`
-  margin: 0 10px;
+  margin: 0 5px;
 `;
 
 export default PitchAttemptStyled;
