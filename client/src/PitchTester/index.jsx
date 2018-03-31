@@ -6,7 +6,7 @@ import Button from './Button';
 
 const PitchTester = () => (
   <PitchTesterContainer>
-    <Img src="/assets/pitchpipe.jpeg" alt="pitchpipe" />
+    <Img src="/assets/pitchpipe.png" alt="pitchpipe" />
     <Button>Test Me!</Button>
   </PitchTesterContainer>
 );
