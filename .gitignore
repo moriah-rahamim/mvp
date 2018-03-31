@@ -36,3 +36,7 @@ bower_components/
 
 # ENV file
 .env
+
+# Mac OS
+.DS_Store
+
