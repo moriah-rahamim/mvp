@@ -58,3 +58,11 @@ table {
 *:after {
   box-sizing: border-box;
 }
+
+div {
+  border: solid green 1px;
+}
+
+body {
+  font-family: sans-serif;
+}
