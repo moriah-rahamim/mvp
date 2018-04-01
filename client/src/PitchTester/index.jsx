@@ -4,12 +4,16 @@ import PitchTesterContainer from './PitchTesterContainer';
 import Img from './Img';
 import Button from './Button';
 
-const PitchTester = () => (
-  <PitchTesterContainer>
-    <Img src="/assets/pitchpipe.png" alt="pitchpipe" />
-    <Button>Test Me!</Button>
-  </PitchTesterContainer>
-);
+const PitchTester = () => {
+  const audio = new Audio('/assets/piano-c4.wav');
+
+  return (
+    <PitchTesterContainer>
+      <Img src="/assets/pitchpipe.png" alt="pitchpipe" />
+      <Button onClick={() => audio.play()}>Test Me!</Button>
+    </PitchTesterContainer>
+  );
+};
 
 PitchTester.propTypes = {};
 
