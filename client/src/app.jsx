@@ -1,6 +1,7 @@
 import React from 'react';
 import ProgressTracker from './ProgressTracker';
 import PitchTester from './PitchTester';
+import ResultsRecorder from './ResultsRecorder';
 
 class App extends React.Component {
   constructor(props) {
@@ -16,7 +17,8 @@ class App extends React.Component {
       <div>
         <ProgressTracker progressArray={this.state.progress} />
         <PitchTester />
-        <div className="submit-results">ResultSubmit will go here</div>
+        <ResultsRecorder />
+        {/* <div className="submit-results">ResultSubmit will go here</div> */}
       </div>
     );
   }
