@@ -7,9 +7,14 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: 'fakeusername',
-      progress: ['really flat', 'right on', 'a little sharp'],
+      progress: [-2, 2, 2, 0, -1, -2],
     };
+  }
+
+  addAttempt(score) {
+    const newProgressArr = this.state.progress.slice();
+    newProgressArr.push(score);
+    this.setState({ progress: newProgressArr });
   }
 
   render() {
@@ -17,8 +22,7 @@ class App extends React.Component {
       <div>
         <ProgressTracker progressArray={this.state.progress} />
         <PitchTester />
-        <ResultsRecorder />
-        {/* <div className="submit-results">ResultSubmit will go here</div> */}
+        <ResultsRecorder addAttempt={score => this.addAttempt(score)} />
       </div>
     );
   }

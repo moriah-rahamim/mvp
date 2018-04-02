@@ -7,7 +7,7 @@ const PitchAttempt = ({ result, className }) => (
 );
 
 PitchAttempt.propTypes = {
-  result: PropTypes.string.isRequired,
+  result: PropTypes.number.isRequired,
   className: PropTypes.string.isRequired,
 };
 

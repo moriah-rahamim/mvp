@@ -9,6 +9,14 @@ const Button = styled.button`
   margin-bottom: 20px;
   border-radius: 8px;
   border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    background-color: #52b287;
+  }
 `;
 
 export default Button;

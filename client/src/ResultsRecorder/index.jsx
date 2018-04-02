@@ -5,7 +5,7 @@ import Title from './Title';
 import ResultOptions from './ResultOptions';
 import ResultButton from './ResultButton';
 
-const ResultsRecorder = () => {
+const ResultsRecorder = ({ addAttempt }) => {
   const resultOptions = [
     ['really flat', -2],
     ['a bit flat', -1],
@@ -18,12 +18,20 @@ const ResultsRecorder = () => {
     <ResultsRecorderContainer>
       <Title>How did you do?</Title>
       <ResultOptions>
-        {resultOptions.map(option => <ResultButton text={option[0]} value={option[1]} />)}
+        {resultOptions.map(option => (
+          <ResultButton
+            text={option[0]}
+            value={option[1]}
+            addAttempt={score => addAttempt(score)}
+          />
+        ))}
       </ResultOptions>
     </ResultsRecorderContainer>
   );
 };
 
-ResultsRecorder.propTypes = {};
+ResultsRecorder.propTypes = {
+  addAttempt: PropTypes.func.isRequired,
+};
 
 export default ResultsRecorder;
