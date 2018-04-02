@@ -13,6 +13,14 @@ const Button = styled.button`
     color: white;
     background-color: #42b9f4;
   }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    background-color: #39a7dd;
+  }
 `;
 
 export default Button;
